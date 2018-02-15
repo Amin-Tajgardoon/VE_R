@@ -1,3 +1,5 @@
+## function for data resampling: SMOTE, undersampling, oversampling (did not use in final modeling)
+
 library(unbalanced)
 
 data.resample <- function (X= input, Y=output, positive , type="ubSMOTE", percOver=300, percUnder=150, verbose=TRUE,
